@@ -17,7 +17,7 @@ $ webpack
 ```
 or 
 ```
-$ webpack-dev-server --content-base /build
+$ webpack-dev-server
 ```
 
 If you use the webpack dev server navigate to:
