@@ -54,7 +54,6 @@ var Grouping = {
     splitGroup(group) {
         // Remove X number of items from the group and unlearn them
         var newGroupArray = group.splice(0, Math.floor((Math.random() * 15) + 3));
-        this.machine.unlearn(newGroupArray);
 
         // Create a new group out of the extracted items
         this.newGroup(newGroupArray);
